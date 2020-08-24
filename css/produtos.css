@@ -153,12 +153,14 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.orcamento_dados .dados_email {
-    margin-bottom: 20px;
+.orcamento_dados span:nth-of-type(even) {
+    margin-bottom: 40px;
 }
-.orcamento_dados ul{
+
+.orcamento_dados ul {
     padding-right: 60px;
 }
+
 .orcamento_dados ul li {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
@@ -169,6 +171,6 @@
     background: #1d1d1d;
 }
 
-.orcamento_dados p{
+.orcamento_dados p {
     margin: 8px 0;
 }
