@@ -12,6 +12,7 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 .btn {
@@ -131,9 +132,12 @@ img {
 .header_menu ul li a:hover {
     color: #fff;
 }
-.header_menu ul li a.menu_ativo{
+
+.header_menu ul li a.menu_ativo {
     color: #fff;
+    border-color: #fff;
 }
+
 /* Introdução */
 
 .introducao {
@@ -321,6 +325,7 @@ img {
 }
 
 /* Footer */
+
 .footer {
     width: 100%;
     background: #000;
